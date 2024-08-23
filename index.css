@@ -1,0 +1,990 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.BODY{
+  height: 100vh ;
+  width: 100vh  ;
+}
+.nav-bar {
+  width: 100%;
+  display: flex;
+  background-image: url("image/black.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.nav-bar h1 {
+  margin: 40px;
+  color: white;
+  margin-right: 500px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.nav-bar h1:hover {
+  margin: 40px;
+  color: whitesmoke;
+  margin-right: 500px;
+  transform: scale(1.2) translateX(20px);
+}
+
+.nav-bar h1:hover {
+  margin: 40px;
+  color: lightblue;
+  margin-right: 500px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-list li {
+  margin: 50px;
+  transition-duration: 1s;
+}
+
+.nav-list li:hover {
+  margin: 50px;
+  transform: scale(1.4);
+}
+
+.nav-list a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile {
+  display: flex;
+  background-image: url(image/web.jpeg);
+  background-position: center;
+  background-size: cover;
+  transform: translateY(-250px);
+}
+
+.content {
+  margin: 250px;
+  color: white;
+}
+
+.content h2 {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.content p {
+  font-size: 20px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.profile img {
+  height: 400px;
+  width: auto;
+  margin: 100px 10px;
+  border-radius: 20px;
+  transition: 1s;
+}
+
+.profile img:hover {
+  height: 400px;
+  width: auto;
+  margin: 100px 10px;
+  border-radius: 20px;
+  transform: rotate(3deg) scale(1.1);
+  padding: 2px;
+  background-color: lightskyblue;
+}
+
+.acadamics {
+  
+  background-image: url("image/acadamics.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  filter: brightness(70%);
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 2px black;
+}
+
+.acadamics figcaption {
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.acadamics h2 {
+  color: white;
+  font-size: 40px;
+  margin: 9px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.clg {
+  display: flex;
+  border: solid 3px black;
+  margin: 20px;
+}
+
+.clgimg img {
+  width: 560px;
+  margin: 10px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.clgimg img:hover {
+  border: none;
+  width: 560px;
+  margin: 10px;
+  padding: 9px;
+  transform: scale(1.05);
+}
+
+.clgtext {
+  border-left: solid 4px black;
+  text-align: left;
+}
+
+.clgtext h3 {
+  color: white;
+  font-size: 35px;
+  margin: 50px 50px;
+}
+
+.clgtext p {
+  font-size: 28px;
+  margin: 20px 50px;
+  text-transform: initial;
+}
+
+/* Sch - HSC */
+
+.sch1 {
+  display: flex;
+  border: solid 3px black;
+  margin: 20px;
+}
+
+.sch1img img {
+  width: 560px;
+  margin: 10px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.sch1img img:hover {
+  border: none;
+  width: 560px;
+  margin: 10px;
+  padding: 9px;
+  transform: scale(1.05);
+}
+
+.sch1text {
+  margin: 0px 0px;
+  border-left: solid 4px black;
+  text-align: left;
+}
+
+.sch1text h2 {
+  color: white;
+  text-align: left;
+  font-size: 35px;
+  margin: 50px 50px;
+}
+
+.sch1text p {
+  font-size: 28px;
+  margin: 20px 50px;
+  text-transform: initial;
+}
+
+/* Sch - SSLC */
+
+.sch2 {
+  display: flex;
+  border: solid 3px black;
+  margin: 20px;
+}
+
+.sch2img img {
+  width: 560px;
+  margin: 10px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.sch2img img:hover {
+  border: none;
+  width: 560px;
+  margin: 10px;
+  padding: 9px;
+  transform: scale(1.05);
+}
+
+.sch2text {
+  border-left: solid 4px black;
+  text-align: left;
+}
+
+.sch2text h2 {
+  color: white;
+  text-align: left;
+  font-size: 35px;
+  margin: 50px 50px;
+}
+
+.sch2text p {
+  font-size: 28px;
+  margin: 20px 50px;
+  text-transform: initial;
+}
+
+.footer {
+  background-color: antiquewhite;
+  width: 100%;
+  justify-content: right;
+}
+
+.footer,
+.insta,
+.linkedin,
+.upwork {
+  display: flex;
+}
+
+.insta,
+.linkedin,
+.upwork {
+  display: flex;
+  margin: 15px 20px;
+  transition: 1s;
+}
+
+.insta:hover,
+.linkedin:hover,
+.upwork:hover {
+  transform: scale(1.2);
+}
+
+.insta a,
+.linkedin a,
+.upwork a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+
+.insta a:hover,
+.linkedin a:hover,
+.upwork a:hover {
+  text-decoration: none;
+  color: rgb(7, 151, 151);
+  transform: scale(1.1);
+}
+
+.insta img,
+.linkedin img,
+.upwork img {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* --------Project --------- */
+
+.project-container {
+  /* background-color: rgb(5, 5, 54); */
+  background-image: url(image/green.svg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.project {
+  /* background-image: url("image/acadamics.jpg"); */
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  filter: brightness(70%);
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  border: solid 2px black;
+}
+
+.project figcaption {
+  color: black;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.project h2 {
+  color: black;
+  font-size: 40px;
+  margin: 9px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+
+.Website {
+  display: flex;
+  border: solid 3px black;
+  margin: 20px;
+}
+
+.Websiteimg img {
+  width: 560px;
+  margin: 10px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.Websiteimg img:hover {
+  border: none;
+  width: 560px;
+  margin: 10px;
+  padding: 9px;
+  transform: scale(1.05);
+}
+
+.Websitetext {
+  border-left: solid 4px black;
+  text-align: left;
+  line-height: 30px;
+  text-transform: initial;
+}
+
+.Websitetext h3 {
+  color: black;
+  font-size: 35px;
+  margin: 50px 50px;
+}
+
+.Websitetext p {
+  font-size: 22px;
+  margin: 20px 50px;
+  text-align: justify;
+}
+
+/* Experiment - 2 */
+
+.exp1 {
+  display: flex;
+  border: solid 3px black;
+  margin: 20px;
+}
+
+.exp1img img {
+  width: 560px;
+  margin: 10px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.exp1img img:hover {
+  border: none;
+  width: 560px;
+  margin: 10px;
+  padding: 9px;
+  transform: scale(1.05);
+}
+
+.exp1text {
+  margin: 0px 0px;
+  border-left: solid 4px black;
+  text-align: left;
+}
+
+.exp1text h2 {
+  color: black;
+  text-align: left;
+  font-size: 35px;
+  margin: 50px 50px;
+}
+
+.exp1text p {
+  font-size: 22px;
+  margin: 20px 50px;
+  line-height: 30px;
+  text-transform: initial;
+  text-align: justify;
+}
+
+/* Sch - SSLC */
+
+.exp2 {
+  display: flex;
+  border: solid 3px black;
+  margin: 20px;
+}
+
+.exp2img img {
+  width: 560px;
+  margin: 10px;
+  padding: 3px;
+  transition: 1s;
+}
+
+.exp2img img:hover {
+  border: none;
+  width: 560px;
+  margin: 10px;
+  padding: 9px;
+  transform: scale(1.05);
+}
+
+.exp2text {
+  border-left: solid 4px black;
+  text-align: left;
+}
+
+.exp2text h2 {
+  color: black;
+  text-align: left;
+  font-size: 35px;
+  margin: 50px 50px;
+}
+
+.exp2text p {
+  font-size: 22px;
+  margin: 20px 50px;
+  line-height: 30px;
+  text-transform: initial;
+  text-align: justify;
+}
+
+.footer {
+  background-color: antiquewhite;
+  width: 100%;
+  justify-content: right;
+}
+
+.footer,
+.insta,
+.linkedin,
+.upwork {
+  display: flex;
+}
+
+.insta,
+.linkedin,
+.upwork {
+  display: flex;
+  margin: 15px 20px;
+  transition: 1s;
+}
+
+.insta:hover,
+.linkedin:hover,
+.upwork:hover {
+  transform: scale(1.2);
+}
+
+.insta a,
+.linkedin a,
+.upwork a {
+  text-decoration: none;
+  color: black;
+  transition: 1s;
+}
+
+.insta a:hover,
+.linkedin a:hover,
+.upwork a:hover {
+  text-decoration: none;
+  color: rgb(7, 151, 151);
+  transform: scale(1.1);
+}
+
+.insta img,
+.linkedin img,
+.upwork img {
+  height: 20px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* ------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 600px) {
+ 
+   .nav-bar {
+    
+    width: 100vh;
+    display: inline-flex;
+    background-image: url("image/black.jpg");
+    background-position: center;
+    background-size: cover;
+    
+  }
+  /*
+
+  .nav-bar h1 {
+
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    transition: 1s;
+    cursor: pointer;
+  } */
+
+
+  .nav-list {
+    width: 100vh;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    /* transform: translateX(-100px); */
+  }
+
+  .profile {
+    width: 100vh;
+    height: 100vh;
+    display: block;
+    background-image: url(image/web.jpeg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .content {
+    width: 100vh;
+    transform: translatex(-90px) translateY(90px);
+    color: white;
+  }
+
+  .content h2 {
+    font-size: 40px;
+    
+  }
+
+  .content p {
+    font-size: 20px;
+    text-align: center;
+    transform: translatex(-130px);
+  }
+
+  .profile img {
+    height: 200px;
+    margin: auto;
+    width: 30vh;
+    margin: 0px 0px;
+    border-radius: 20px;
+    transition: 1s;
+    transform: translateY(-100px) translateX(240px);
+  }
+
+  /* .profile img:hover {
+    height: 400px;
+    width: auto;
+    margin: 100px 10px;
+    border-radius: 20px;
+    transform: rotate(3deg) scale(1.1);
+    padding: 2px;
+    background-color: lightskyblue;
+  } */
+
+  .about {
+    width: 100vh;
+  }
+  .acadamics {
+    width: 100vh;
+    background-image: url("image/acadamics.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    filter: brightness(70%);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    /* border: solid 2px black; */
+  }
+
+  .acadamics figcaption {
+    color: white;
+    /* padding: 5px; */
+    font-weight: bolder;
+  }
+
+  .acadamics h2 {
+    color: white;
+    font-size: 35px;
+    /* margin: 9px; */
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .clg {
+    width: 100vh;
+    display: block;
+    border: solid 2px black;
+    border: none;
+    /* border: solid 3px black; 
+    margin: 20px;*/
+  }
+
+  .clgimg img {
+    width: 540px;
+    /* margin: 10px;
+    padding: 3px; */
+    transition: 1s;
+  }
+
+  /* .clgimg img:hover {
+    border: none;
+    width: 560px;
+    margin: 10px;
+    padding: 9px;
+    transform: scale(1.05);
+  } */
+
+  .clgtext {
+    width: 100vh;
+    /* border-left: solid 4px black; */
+    text-align: left;
+    border: none;
+  }
+
+  .clgtext h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    /* margin: 50px 50px; */
+  }
+
+  .clgtext p {
+    font-size: 20px;
+    /* margin: 20px 50px; */
+    text-transform: initial;
+  }
+
+  /* Sch - HSC */
+
+  .sch1 {
+    width: 100vh;
+    display: block;
+    border: none;
+    /* border: solid 3px black;
+    margin: 20px; */
+  }
+
+  .sch1img img {
+    width: 560px;
+    /* margin: 10px;
+    padding: 3px; */
+    transition: 1s;
+  }
+
+  /* .sch1img img:hover {
+    border: none;
+    width: 560px;
+    margin: 10px;
+    padding: 9px;
+    transform: scale(1.05);
+  } */
+
+  .sch1text {
+    text-align: left;
+    border: none;
+  }
+
+  .sch1text h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    /* margin: 50px 50px; */
+  }
+
+  .sch1text p {
+    font-size: 20px;
+    /* margin: 20px 50px; */
+    text-transform: initial;
+  }
+
+  /* Sch - SSLC */
+
+  .sch2 {
+    display: block;
+    border: none;
+    /* border: solid 3px black;
+    margin: 20px; */
+  }
+
+  .sch2img img {
+    width: 560px;
+    /* margin: 10px;
+    padding: 3px; */
+    transition: 1s;
+  }
+
+  /* .sch2img img:hover {
+    border: none;
+    width: 560px;
+    margin: 10px;
+    padding: 9px;
+    transform: scale(1.05);
+  } */
+
+  .sch2text {
+    /* border-left: solid 4px black; */
+    text-align: left;
+    border: none;
+  }
+
+  .sch2text h2 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    /* margin: 50px 50px; */
+  }
+
+  .sch2text p {
+    font-size: 20px;
+    /* margin: 20px 50px; */
+    text-transform: initial;
+  }
+
+  /* --------Project --------- */
+
+  .project-container {
+    width: 100vh;
+    /* background-color: rgb(5, 5, 54); */
+    background-image: url(image/light.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .project {
+    width: 100vh;
+    background-image: url("image/light.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    filter: brightness(70%);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    /* border: solid 2px black; */
+  }
+
+  .project figcaption {
+    color: white;
+    padding: 10px;
+    font-weight: bolder;
+  }
+
+  .project h2 {
+    color: black;
+    font-size: 30px;
+    margin: 9px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+  }
+
+  .Website {
+    width: 100vh;
+
+    display: block;
+    border: none;
+    /* margin: 20px; */
+  }
+
+  .Websiteimg img {
+    width: 560px;
+    /* margin: 10px; */
+    padding-right: 30px;
+    transition: 1s;
+  }
+
+  /* .Websiteimg img:hover {
+    border: none;
+    width: 560px;
+    margin: 10px;
+    padding: 9px;
+    transform: scale(1.05);
+  } */
+
+  .Websitetext {
+    /* border-left: solid 4px black; */
+    color: black;
+    text-align: left;
+    line-height: 30px;
+    text-transform: initial;
+    border: none;
+  }
+
+  .Websitetext h3 {
+    color: black;
+    font-size: 35px;
+  }
+
+  .Websitetext p {
+    font-size: 22px;
+    /* margin: 20px 50px; */
+    text-align: justify;
+    border: none;
+  }
+
+  /* Experiment - 2 */
+
+  .exp1 {
+    width: 100vh;
+    display: block;
+    border: none;
+    /* border: solid 3px black; 
+    margin: 20px;*/
+  }
+
+  .exp1img img {
+    
+    width: 560px;
+    /* margin: 10px;
+    padding: 3px; */
+    transition: 1s;
+  }
+
+  /* .exp1img img:hover {
+    border: none;
+    width: 560px;
+    margin: 10px;
+    padding: 9px;
+    transform: scale(1.05);
+  } */
+
+  .exp1text {
+    /* margin: 0px 0px; 
+    border-left: solid 4px black;*/
+    text-align: left;
+    border: none;
+  }
+
+  .exp1text h2 {
+    color: black;
+    text-align: left;
+    font-size: 35px;
+    margin: 50px 50px;
+  }
+
+  .exp1text p {
+    color: black;
+    font-size: 22px;
+    /* margin: 20px 50px; */
+    line-height: 30px;
+    text-transform: initial;
+    text-align: justify;
+  }
+
+  .exp2 {
+    
+    display: block;
+    border: none;
+    /* border: solid 3px black;
+    margin: 20px; */
+  }
+  
+  .exp2img img {
+    width: 560px;
+    /* margin: 10px;
+    padding: 3px; */
+    transition: 1s;
+  }
+  
+  .exp2img img:hover {
+    border: none;
+    width: 560px;
+    margin: 10px;
+    padding: 9px;
+    transform: scale(1.05);
+  }
+  
+  .exp2text {
+    /* border-left: solid 4px black; */
+    text-align: left;
+    color: black;
+    border: none;
+  }
+  
+  .exp2text h2 {
+    color: black;
+    text-align: left;
+    font-size: 35px;
+    margin: 50px 50px;
+  }
+  
+  .exp2text p {
+    font-size: 22px;
+    margin: 20px 50px;
+    line-height: 30px;
+    text-transform: initial;
+    text-align: justify;
+  }
+  
+  .footer {
+    width: 100vh;
+    background-color: antiquewhite;
+    justify-content: right;
+  }
+  
+  .footer,
+  .insta,
+  .linkedin,
+  .upwork {
+    display: flex;
+    
+  }
+  
+  .insta,
+  .linkedin,
+  .upwork {
+    display: flex;
+    margin: 15px 20px;
+    transition: 1s;
+  }
+/*   
+  .insta:hover,
+  .linkedin:hover,
+  .upwork:hover {
+    transform: scale(1.2);
+  } */
+  
+  .insta a,
+  .linkedin a,
+  .upwork a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+  }
+/*   
+  .insta a:hover,
+  .linkedin a:hover,
+  .upwork a:hover {
+    text-decoration: none;
+    color: rgb(7, 151, 151);
+    transform: scale(1.1);
+  } */
+  
+  .insta img,
+  .linkedin img,
+  .upwork img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+  }
+  
+}
