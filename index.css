@@ -63,7 +63,7 @@ nav {
   background-image: url(image/web.jpeg);
   background-position: center;
   background-size: cover;
-  height: 100%;
+  height: 100vh;
 }
 
 .content {
