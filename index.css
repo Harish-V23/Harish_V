@@ -515,7 +515,7 @@ nav {
   margin-right: 10px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 6000px) {
   nav {
     display: block;
   }
